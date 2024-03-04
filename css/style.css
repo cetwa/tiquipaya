@@ -125,6 +125,8 @@ button:focus {
     outline: none;
 }
 
+
+
 ul,
 li,
 ol {
@@ -225,6 +227,48 @@ button {
     padding: 0px;
 }
 
+/*menu nuevo de iconos css*/
+/* Estilos para el nuevo menú de redes sociales y donación */
+.social-donation-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+    padding: 10px;
+ }
+ 
+ .social-donation-menu a {
+    margin-left: 10px; /* Espaciado entre los iconos */
+ }
+ /* Ajusta el tamaño de todos los iconos en dispositivos pequeños y grandes */
+.social-donation-menu a img {
+    width: 30px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+}
+ /* Ajusta el tamaño de los iconos en dispositivos pequeños */
+ @media (max-width: 768px) {
+    .social-donation-menu a img {
+       width: 20px; /* Ajusta el tamaño según sea necesario */
+       height: auto;
+    }
+   
+ }
+
+     /* Estilos para el botón de donar */
+.btn-donatenewmenuicons {
+    background-color: #f36b21;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px; /* Espaciado a la izquierda del botón */
+}
+
+.btn-donatenewmenuicons:hover {
+    background-color: #d9534f;
+}
+ 
+/*FIN menu nuevo de iconos css*/
 
 /* header section start */
 
@@ -293,13 +337,14 @@ button.donate_btn {
 
 /* header section end */
 
-
 /* banner section start */
 
 .banner_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/banner-bg1.png);
+    /*background-image: url(../images/banner-bg.png);*/
+    /*background-image: url(../images/bannerprovisorio.png);*/
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -344,6 +389,7 @@ button.donate_btn {
     background-color: #f64646;
     padding: 8px 0px;
     text-transform: uppercase;
+    border-radius: 8px;
 }
 
 .read_bt a:hover {
@@ -498,6 +544,25 @@ button.donate_btn {
 
 /* banner section end */
 
+/*card section */
+.square-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Evita que la imagen se deforme y cubre todo el contenedor */
+}
+.btn-customcard {  
+    background-color: #f36b21;
+    border-color: #f36b21;
+    color: #fff; /* Cambiado a blanco */
+    font-size: 1.5em; /* Tamaño del texto del botón ajustado según tus preferencias */
+}
+
+.btn-customcard:hover {
+    background-color: #4f4e4e; /* Cambiado a un color oscuro al hacer hover */
+    border-color: #4f4e4e;
+    color: #fff;
+}
+/*card section */
 
 /* about section start */
 
