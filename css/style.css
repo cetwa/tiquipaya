@@ -907,8 +907,12 @@ button.donate_btn {
 
 
 /* news section end */
-
-
+/* video section  */
+video {
+    width: 100%;
+    height: auto;
+}
+/* video section end */
 /* events section start */
 
 .events_section {
